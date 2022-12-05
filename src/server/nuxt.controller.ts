@@ -1,7 +1,7 @@
 import { Controller, Get, Req, Res } from '@nestjs/common';
 import { Request, Response } from 'express';
 import { Builder, Nuxt } from 'nuxt';
-import * as config from '../../nuxt.config.js';
+import config from '../../nuxt.config.js';
 @Controller()
 export class NuxtController {
   private nuxt: Nuxt;
